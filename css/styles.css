@@ -1,0 +1,106 @@
+body{
+  font-family: 'RedHatDisplay' sans-serif;
+}
+
+.outer-container {
+  position: absolute;
+  left: 70px;
+  background-color: #E0E8FF;
+  height: 1000px;
+}
+
+
+.inner-container {
+  position: absolute;
+  left: 550px;
+  top: 100px;
+  background-color: white;
+  margin: inherit;
+  border-radius: 20px;
+  height: 680px;
+  text-align: center;
+}
+
+.big-img {
+  border-radius: 20px 20px 0 0;
+}
+.order-title {
+font-size: 28px;
+font-weight: 900;
+color: hsl(223, 47%, 23%);
+margin-top: 45px;
+}
+.desc {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  padding-top: 8px;
+}
+.icon {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+}
+.light-container {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  width: 350px;
+  height: 90px;
+  position: relative;
+  left: 52px;
+}
+.plan {
+  position: absolute;
+  left: 90px;
+  top: 18px;
+}
+.plan p {
+  margin: 1px;
+}
+
+.annual {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  font-family: 'RedHatDisplay' sans-serif;
+}
+.amount {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: 17px;
+}
+
+.change-link {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: hsl(245, 75%, 52%);
+}
+.change-link :hover {
+  color: #CBC3E3;
+  text-decoration: none;
+}
+.btn {
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 350px;
+  height: 50px;
+  box-shadow: 1px 10px 30px hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.payment :hover {
+  background-color: #CBC3E3;
+}
+.cancel {
+  text-decoration: none;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  margin-top: 30px;
+}
+.attribution {
+  position: absolute;
+  bottom: 20px;
+  right: 600px;
+}
